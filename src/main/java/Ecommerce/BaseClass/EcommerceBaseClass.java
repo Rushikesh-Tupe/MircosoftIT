@@ -33,7 +33,7 @@ public class EcommerceBaseClass {
    @Parameters("Browser")
 	@BeforeMethod
 	public void SetUp(String Browsernames) {
-	   System.out.println("Hi i am base class parent of all yours childs");
+	   System.out.println("Hi i am base class ");
 		logger=logger.getLogger("ecommerce");
 		PropertyConfigurator.configure("Log4j.properties");
 		if(Browsernames.equals("Chrome"))
